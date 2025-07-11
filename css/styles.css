@@ -438,22 +438,22 @@ header nav .navbar-nav{
 }
 
 #main-page-3 .page3-card.bg-two-hands{
-    background: url('/images/page3-card1-image(1).png') no-repeat center;
+    background: url('../images/page3-card1-image1.png') no-repeat center;
     background-size: cover;
 }
 
 #main-page-3 .page3-card.bg-bible{
-    background: url('/images/page3-card2-image(1).png') no-repeat center;
+    background: url('../images/page3-card2-image1.png') no-repeat center;
     background-size: cover;
 }
 
 #main-page-3 .page3-card.bg-man-reading{
-    background: url('/images/page3-card3-image(1).png') no-repeat center;
+    background: url('../images/page3-card3-image1.png') no-repeat center;
     background-size: cover;
 }
 
 #main-page-3 .page3-card.bg-mosaic{
-    background: url('/images/page3-card4-image(1).png') no-repeat center;
+    background: url('../images/page3-card4-image1.png') no-repeat center;
     background-size: cover;
 }
 
@@ -728,7 +728,7 @@ header nav .navbar-nav{
 #main-page-4 .page4-card-right{
     width: 845px;
     height: 512px;
-    background: url('/images/page4-card-right-bg.png') no-repeat center;
+    background: url('../images/page4-card-right-bg.png') no-repeat center;
     background-size: cover;
 
 }
@@ -738,7 +738,7 @@ header nav .navbar-nav{
     height: 736px;
     display: grid;
     place-items: center; 
-    background: url('/images/page5-bg-image.jpg') no-repeat center;
+    background: url('../images/page5-bg-image.jpg') no-repeat center;
     background-size: cover;
 }
 
@@ -819,7 +819,7 @@ header nav .navbar-nav{
     height: 140px;
     margin-top: 170px;
     margin-bottom: 170px;
-    background: url('/images/page5-quote-icon-large.png') no-repeat center;
+    background: url('../images/page5-quote-icon-large.png') no-repeat center;
     background-size: cover;
 }
 
