@@ -1,0 +1,604 @@
+@media (min-width: 320px) and (max-width:575px) {
+  .navbar {
+    flex-wrap: wrap !important;
+  }
+
+  .navbar .container {
+    flex-wrap: wrap !important;
+    align-items: center;
+  }
+
+  .navbar-collapse {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column;
+    background-color: var(--nav-bg-color);
+    padding: 1rem 0;
+    margin-top: 0.5rem;
+  }
+
+  .navbar-nav {
+    flex-direction: column !important;
+    width: 100%;
+    padding-left: 0;
+    gap: 1rem;
+  }
+
+  .nav-item {
+    width: 100%;
+  }
+
+  .nav-link {
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+    color: white;
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-button {
+    width: 90%;
+    align-self: center;
+    font-size: 14px;
+    padding: 14px 0;
+    border-radius: 6px;
+    margin-top: 1rem;
+  }
+
+  .navbar-toggler {
+    border: none;
+    box-shadow: none;
+  }
+
+  .navbar-brand img {
+    max-width: 120px;
+    height: auto;
+  }
+  
+  #banner {
+    height: auto;
+    padding: 3rem 1rem; /* add vertical spacing around content */
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+  }
+
+  #banner .banner-header-eyebrow {
+    font-size: 14px;
+    padding-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  #banner h1 {
+    font-size: 28px;
+    line-height: 1.4;
+    letter-spacing: -0.5px;
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+  }
+
+  #banner .banner-button {
+    width: 100%;
+    max-width: 214px;
+    height: auto;
+    padding: 0.75rem 1rem;
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+  }
+
+  #banner .banner-text {
+    font-size: 12px;
+    line-height: 1.5;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    max-width: 100%;
+    margin: 0 auto 2rem;
+    position: relative;
+  }
+
+  #banner .banner-text::before {
+    width: 18px;
+    top: 0.55em;
+    left: 0;
+  }
+
+  .sub-headline {
+    font-size: 14px;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+    #main-page-1 {
+    padding: 2rem 1rem;
+  }
+
+  #main-page-1 .sub-headline {
+    font-size: 14px;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  #main-page-1 .page-headline {
+    font-size: 24px;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+    letter-spacing: -0.3px;
+  }
+
+  #main-page-1 .row {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  #main-page-1 .col-4 {
+    width: 100%;
+    max-width: 90%;
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  #main-page-1 .page1-grid-card {
+    width: 100%;
+    height: auto;
+    padding: 2rem 1.5rem;
+    border-bottom: 12px solid var(--button-bg-color);
+    text-align: center;
+  }
+
+  #main-page-1 .page1-grid-card img {
+    max-width: 80px;
+    height: auto;
+  }
+
+  #main-page-1 .page1-grid-card h3 {
+    font-size: 20px;
+    line-height: 1.3;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.2px;
+  }
+
+  #main-page-1 .page1-grid-card p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+    #main-page-2 {
+    padding: 2rem 1rem;
+  }
+
+  #main-page-2 .sub-headline,
+  #main-page-2 .sub-headline-lower {
+    font-size: 14px;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  #main-page-2 .page-headline {
+    font-size: 24px;
+    line-height: 1.3;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.3px;
+  }
+
+  #main-page-2 .page2-heading-para {
+    font-size: 14px;
+    line-height: 1.5;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  #main-page-2 .page2-button {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    padding: 0.75rem 1rem;
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 2rem auto;
+    border-radius: 8px;
+  }
+
+  /* Cards become stacked */
+  #main-page-2 .page2-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  #main-page-2 .page2-card,
+  #main-page-2 .page2-card.middle {
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+    margin-top: 0; /* Remove offset */
+  }
+
+  #main-page-2 .page2-card img,
+  #main-page-2 .page2-card.middle img {
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+  }
+
+  /* Lower section */
+  #main-page-2 .page2-headline-lower {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+  }
+
+  #main-page-2 .page2-para-lower {
+    font-size: 14px;
+    width: 100%;
+    line-height: 1.5;
+    height: auto;
+    margin: 0 auto 1.5rem;
+  }
+
+  #main-page-2 .page2-link-lower {
+    font-size: 13px;
+    gap: 4px;
+  }
+
+  #main-page-2 .page2-link-lower img {
+    width: 16px;
+    height: auto;
+  }
+
+    #main-page-3 {
+    padding: 2rem 1rem;
+    height: auto;
+  }
+
+  #main-page-3 .sub-headline {
+    font-size: 14px;
+    margin-bottom: 1rem;
+  }
+
+  #main-page-3 .page-headline {
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+    width: 100%;
+    height: auto;
+    padding: 0 1rem;
+  }
+
+  #main-page-3 .page3-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+    justify-items: center;
+  }
+
+  #main-page-3 .page3-card {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 16px;
+  }
+
+  #main-page-3 .page3-card h3 {
+    font-size: 18px;
+    line-height: 1.3;
+    margin: 0 1.5rem 1rem;
+    transform: none;
+    transition: none;
+  }
+
+  #main-page-3 .page3-card p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0 1.5rem 1rem;
+    height: auto;
+    opacity: 1;
+    transform: none;
+    display: none; /* initially hidden */
+  }
+
+  /* Touch/click toggle class (we'll use JS for this) */
+  #main-page-3 .page3-card.active p {
+    display: block;
+  }
+
+  /* Remove hover behavior for small screens */
+  #main-page-3 .page3-card:hover h3,
+  #main-page-3 .page3-card:hover p {
+    transform: none;
+    opacity: 1;
+  }
+
+    #main-page-4 {
+    padding: 0 8px;
+  }
+
+  #main-page-4 .page-headline {
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.2px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 32px;
+    padding: 0 8px;
+  }
+
+  #main-page-4 .page4-grid {
+    display: grid;
+    grid-template-columns: minmax(320px, 1fr) 1fr;
+    gap: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+  #main-page-4 .page4-card-left {
+    width: 100%;
+    height: auto;
+    padding-bottom: 24px;
+  }
+
+  #main-page-4 .page4-card-date-wrapper h3.date {
+    font-size: 16px;
+    margin-top: 16px;
+    margin-right: 16px;
+  }
+
+  #main-page-4 .page4-card-date-wrapper h4.date {
+    font-size: 12px;
+    margin-right: 16px;
+  }
+
+  #main-page-4 .page4-card-content-wrapper {
+    margin: -12px 16px 24px 16px;
+    width: auto;
+  }
+
+  #main-page-4 .page4-card-content-wrapper p.top-caption {
+    font-size: 10px;
+    letter-spacing: 0.6px;
+    margin-bottom: 12px;
+  }
+
+  #main-page-4 .page4-card-content-wrapper h3.card-headline {
+    font-size: 16px;
+    line-height: 1.2;
+    width: auto;
+    margin-bottom: 12px;
+  }
+
+  #main-page-4 .page4-card-content-wrapper p.card-para {
+    font-size: 12px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+
+  #main-page-4 .page4-card-content-wrapper .days img,
+  #main-page-4 .page4-card-content-wrapper .locations img {
+    width: 16px;
+    height: 16px;
+  }
+
+  #main-page-4 .page4-card-content-wrapper .days .day-text-container p.day,
+  #main-page-4 .page4-card-content-wrapper .locations span.location-text {
+    font-size: 12px;
+    line-height: 1.4;
+    opacity: 0.78;
+  }
+
+  #main-page-4 .page4-card-content-wrapper .locations {
+    margin-top: 12px;
+    margin-bottom: 20px;
+  }
+
+  #main-page-4 .page4-card-content-wrapper button.page4-button {
+    font-size: 12px;
+    padding: 16px 32px;
+    width: 140px;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+    bottom: 0;
+  }
+
+  #main-page-4 .page4-card-right {
+    width: 100%;
+    height: auto;
+    background-position: left center;
+    background-size: auto 100%; /* vertical fit, crop right */
+  }
+
+  #main-page-4 .page4-link-wrapper {
+    justify-content: center;
+    margin: 32px 0 64px;
+  }
+
+  #main-page-4 .page4-link-wrapper a.page4-link {
+    margin: 0;
+    width: auto;
+  }
+
+  #main-page-4 .page4-link-wrapper a.page4-link span.page4-link-text {
+    font-size: 14px;
+    line-height: 1.4;
+    width: auto;
+  }
+
+  #main-page-4 .page4-link-wrapper a.page4-link img.page4-link-arrow {
+    width: 16px;
+    height: auto;
+  }
+
+    #main-page-5 {
+    height: auto; /* allow height to adapt */
+    padding: 32px 16px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #main-page-5 .centered-box-grid {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: block;
+    padding: 24px 16px;
+    box-sizing: border-box;
+    border-bottom: 12px solid #FFD2A4;
+  }
+
+  #main-page-5 .centered-box-grid-right-child {
+    display: none;
+  }
+
+  #main-page-5 .centered-box-grid-left-child {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: relative;
+  }
+
+  #main-page-5 .centered-box-grid-left-child h2 {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    text-align: left;
+    width: 100%;
+    height: auto;
+  }
+
+  #main-page-5 .centered-box-grid-left-child p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    text-align: left;
+    width: 100%;
+    height: auto;
+  }
+
+  #main-page-5 .centered-box-grid-left-child button.page5-button {
+    width: 120px;
+    height: auto;
+    padding: 12px 24px;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 8px;
+    position: static;
+    margin-top: 8px;
+  }
+
+
+    #main-page-6 {
+    padding: 64px 16px;
+  }
+
+  #main-page-6 .page-headline {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.24px;
+    margin-bottom: 32px;
+  }
+
+  #main-page-6 .sub-headline {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  #main-page-6 .page6-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #main-page-6 .page6-card {
+    width: 100%;
+    height: auto;
+    padding: 24px 16px;
+    border-bottom: 12px solid var(--button-bg-color);
+  }
+
+  #main-page-6 .page6-card .top-caption {
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    margin-bottom: 12px;
+  }
+
+  #main-page-6 .page6-card h3.card-headline {
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+  }
+
+  #main-page-6 .page6-card p.card-para {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 24px;
+  }
+
+  #main-page-6 .page6-card h6.label-03 {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 2px;
+  }
+
+  #main-page-6 .page6-card .card-para.footer-date {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+    footer {
+    padding: 48px 16px;
+  }
+
+  footer .footer-container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 24px 32px; /* 24px row gap, 32px column gap */
+  }
+
+  footer .footer-container > div {
+    margin-left: 0 !important; /* remove .left-* spacing */
+    width: 100%;
+    max-width: 250px; /* Ensures neat columns on wrap */
+  }
+
+  footer .footer-container .left-child-footer img.footer-logo {
+    width: 140px;
+    height: auto;
+  }
+
+  footer .footer-container .left-child-footer .footer-left-text,
+  footer .footer-container .quick-links-footer .footer-quick-links {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  footer .footer-container .quick-links-footer h6.quick-links-headline,
+  footer .footer-container .connect-links-footer .connect-footer-headline {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  footer .footer-container .connect-links-footer .connect-socials-row {
+    gap: 16px;
+  }
+
+  footer .footer-container .connect-links-footer .connect-socials-row a img {
+    width: 14px;
+    height: 14px;
+  }
+}
